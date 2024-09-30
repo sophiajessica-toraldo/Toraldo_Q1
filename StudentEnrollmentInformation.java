@@ -19,7 +19,7 @@ public class StudentEnrollmentInformation {
         int Units = scanner.nextInt();
         
         //Compute the enrollment fee
-        final int FeePerUnit = 1000;
+        int FeePerUnit = 1000;
         int EnrollmentFee = Units * FeePerUnit;
         
         System.out.println("------------------------------------------------");
